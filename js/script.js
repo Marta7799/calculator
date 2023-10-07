@@ -1,34 +1,34 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const numbersBtn = document.querySelectorAll(".main-button-numbers");
-  const buttonPlus = document.getElementById("plus");
-  const buttonMinus = document.getElementById("minus");
-  const buttonMultiply = document.getElementById("multiply");
-  const buttonDivide = document.getElementById("divide");
-  const buttonEqual = document.getElementById("equal");
-  const buttonReset = document.getElementById("reset");
-  const buttonPercent = document.getElementById("percent");
-  const buttonSquare = document.getElementById("square");
-  const buttonMirror = document.getElementById("mirror");
-  const buttonComma = document.getElementById("comma");
-  const display = document.getElementById("display");
-  const displayTop = document.getElementById("displayTop");
+  var numbersBtn = document.querySelectorAll(".main-button-numbers");
+  var buttonPlus = document.getElementById("plus");
+  var buttonMinus = document.getElementById("minus");
+  var buttonMultiply = document.getElementById("multiply");
+  var buttonDivide = document.getElementById("divide");
+  var buttonEqual = document.getElementById("equal");
+  var buttonReset = document.getElementById("reset");
+  var buttonPercent = document.getElementById("percent");
+  var buttonSquare = document.getElementById("square");
+  var buttonMirror = document.getElementById("mirror");
+  var buttonComma = document.getElementById("comma");
+  var display = document.getElementById("display");
+  var displayTop = document.getElementById("displayTop");
 
-  const countArr1 = [];
-  const countArr2 = [];
-  const numberOne = 0;
-  const numberTwo = 0;
-  const result = "";
-  const action = null;
-  const countPlus = 0;
-  const countMinus = 0;
-  const countMultiply = 0;
-  const countDivide = 0;
-  const numberOnePercent = 0;
-  const displayNow = null;
-  const displayTopArr = [];
-  const disLength = null;
-  const mirrorArray = [];
-  const toPercent = null;
+  var countArr1 = [];
+  var countArr2 = [];
+  var numberOne = 0;
+  var numberTwo = 0;
+  var result = "";
+  var action = null;
+  var countPlus = 0;
+  var countMinus = 0;
+  var countMultiply = 0;
+  var countDivide = 0;
+  var numberOnePercent = 0;
+  var displayNow = null;
+  var displayTopArr = [];
+  var disLength = null;
+  var mirrorArray = [];
+  var toPercent = null;
 
   function displayLength() {
     if (disLength.length > 8 && disLength.length < 14) {
